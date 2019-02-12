@@ -7,52 +7,43 @@
 
 int main() 
 {
-    int a, b;
+    int a, b,n;
     scanf("%d\n%d", &a, &b);
   	// Complete the code.
-      if(a==1)
+      for(n=a;n<=b;n++)
+      {
+          if(n>=1 && n<=9)
+          {
+      if(n==1)
       {
           printf("one\n");
       }
-      else if(a==2)
+      else if(n==2)
       {
           printf("two\n");
       }
-      else if(a == 3) { printf("three\n"); }
-      else if(a == 4) { printf("four\n"); }
-       else if(a==5)
+      else if(n == 3) { printf("three\n"); }
+      else if(n == 4) { printf("four\n"); }
+       else if(n==5)
       {
           printf("five\n");
       }
-       else if(a==6)
+       else if(n==6)
       {
           printf("six\n");
       }
-       else if(a==7)
+       else if(n==7)
       {
           printf("seven\n");
       }
-       else if(a==8)
+       else if(n==8)
       {
           printf("eight\n");
       }
-       else if(a == 9) { printf("nine\n"); }
+       else if(n == 9) { printf("nine\n"); }
+          }
 else{
-    printf("nine\n");
-}
-if (b == 1) {
-  printf("one\n");
-}
-else if(b == 2) { printf("two\n"); }
-else if(b == 3) { printf("three\n"); }
-else if(b == 4) { printf("four\n"); }
-else if(b == 5) { printf("five\n"); }
-else if(b == 6) { printf("six\n"); }
-else if(b == 7) { printf("seven\n"); }
-else if(b == 8) { printf("eight\n"); }
-else if(b == 9) { printf("nine\n"); }
-else { printf("nine\n"); }
-if(a%2==0)
+if(n%2==0)
 {
     printf("even\n");
 }
@@ -60,11 +51,10 @@ else
 {
     printf("odd\n");
 }
-if (b % 2 == 0) {
-  printf("even\n");
-} else {
-  printf("odd");
-}
+      }
+      }
 return 0;
 }
+
+
 
